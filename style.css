@@ -1,0 +1,16 @@
+.calculator {position: relative;  left: 30%;  background-color: burlywood;
+             width: 200px;   height: 240px; text-align: center;  align-items: center;
+             border-style:groove; border-radius: 10px; border-color: tomato;}
+
+ #header,#my_web{position: relative; width: 300px; height: 15px; text-align: center;
+         font-size: larger; font-weight: bold; left: 23%; } 
+
+#result{ width: 180px;
+         margin: 10px 10px;} 
+
+.inputs{ width: 50px; margin: 5px;}
+.inputs:hover{scale: 1.1;}
+.inputs:active{background-color: tomato;}
+
+#clear{ width: 100px; background-color: rgb(209, 54, 54);}
+

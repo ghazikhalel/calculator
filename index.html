@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">calculator</div><br>
+    <div class="calculator">
+        <input id="result" type="text" id="result" readonly>
+        <br>
+        <input class="inputs" type="button" value="1" onclick="appendToResult('1')">
+        <input class="inputs" type="button" value="2" onclick="appendToResult('2')">
+        <input class="inputs" type="button" value="3" onclick="appendToResult('3')">
+        <br>
+        <input class="inputs" type="button" value="4" onclick="appendToResult('4')">
+        <input class="inputs" type="button" value="5" onclick="appendToResult('5')">
+        <input class="inputs" type="button" value="6" onclick="appendToResult('6')">
+        <br>
+        <input class="inputs" type="button" value="7" onclick="appendToResult('7')">
+        <input class="inputs" type="button" value="8" onclick="appendToResult('8')">
+        <input class="inputs" type="button" value="9" onclick="appendToResult('9')">
+        <br>
+        <input class="inputs" type="button" value="=" onclick="calculateResult()">
+        <input class="inputs" type="button" value="0" onclick="appendToResult('0')">
+        <input class="inputs" type="button" value="/" onclick="appendToResult('/')">
+        <br>
+        <input class="inputs" type="button" value="+" onclick="appendToResult('+')">
+        <input class="inputs" type="button" value="*" onclick="appendToResult('*')">
+        <input class="inputs" type="button" value="-" onclick="appendToResult('-')">
+        <br><br>
+        <input id="clear" type="button" value="C" onclick="clearResult()">
+      </div><hr>
+      <div id="my_web">Eng: Ghazi Khalel</div>
+    <script src="myfun.js"></script>
+</body>
+</html>
